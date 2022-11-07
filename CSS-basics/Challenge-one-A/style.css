@@ -1,0 +1,21 @@
+*{
+	text-align: center;
+}
+
+body{
+	background-color: beige;
+}
+
+ul{
+	list-style: none;
+}
+
+#wrap{
+	border-top: dashed;
+	border-bottom: dashed;
+	border-right: dashed;
+	border-left: dashed;
+}
+h1{
+	border-bottom: dashed;
+}

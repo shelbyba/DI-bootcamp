@@ -1,0 +1,57 @@
+section{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 600px;
+    width: 700px;
+    background: lightgreen;
+    border: solid green 5px;
+    justify-content: space-around;
+    align-content: space-around;
+    align-content: space-between;
+}
+
+.container{
+    
+    height: 500px;
+    width: 600px;
+    background: white;
+     margin: 2rem;
+    
+    
+}
+.containerB{
+    
+    height: 450px;
+    width: 550px;
+    border: solid red;
+    align-self: center;
+    margin: 2rem;
+    justify-content: space-around;
+    align-content: space-around;
+    align-content: space-between;
+  
+
+}
+.box1{
+    background: lightblue;
+
+    width: 550px;
+    height: 100px;
+   
+}
+.box2{
+    width: 150px;
+    height: 100px;
+    align-self: flex-start;
+    align-content: flex-end;
+    background-color: aqua;
+}
+.box3{
+    background: lightblue;
+
+    width: 550px;
+    height: 100px;
+
+}

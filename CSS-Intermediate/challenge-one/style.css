@@ -1,0 +1,25 @@
+body{
+	background-color: mediumpurple;
+    block-inline: inline;
+}
+
+#content ul{
+	text-align: center;
+	list-style: none;
+
+}
+
+#content h1{
+	text-align: center;
+
+}
+#content p{
+	text-align: center;
+}
+}
+#nav{
+
+}
+h2,ul{
+	list-style: square;
+}

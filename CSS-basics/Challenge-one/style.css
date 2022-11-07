@@ -1,0 +1,12 @@
+body{
+	background-color: skyblue;
+}
+ul{
+	text-align: center;
+	list-style: none;
+}
+
+span{
+	font-weight: bold;
+	font-size: 30px;
+}
