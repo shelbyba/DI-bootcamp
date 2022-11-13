@@ -15,7 +15,7 @@ console.log(start);
 start.style.background= "lightblue"
 start.style.padding="3rem"
 start.style.fontSize='100px'
-var r=confirm("Hello X AND Y USERS");
+var r=confirm("Hello Pete AND Johen ");
 if (r==true)
   {
   x="You pressed OK!";

@@ -33,18 +33,16 @@ newli.appendChild(logout);
 get.appendChild(newli);
 
 
-let display= get.firstElementChild
+let ulfirst= document.querySelector("ul");
+console.log(ulfirst);
 
-console.log(display);
+let firstly=ulfirst.firstElementChild
+console.log(firstly);
 
-display.textContent
+console.log(firstly.textContent);
 
-let display1= get.lastElementChild
-
-console.log(display1);
-
-
-
+ let lastly = ulfirst.lastElementChild.textContent;
+ console.log(lastly)
 
 
 
