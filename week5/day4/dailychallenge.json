@@ -1,0 +1,58 @@
+let form= document.querySelector("#libform");
+console.log(form)
+
+let noun=document.getElementById("noun");
+let adjective= document.getElementById('adjective');
+let person=document.getElementById('person');
+let verb=document.getElementById('verb');
+let place=document.getElementById('place');
+
+
+let btn=document.getElementById('lib-button');
+console.log(btn)
+btn.addEventListener('click', okay );
+function okay(e){
+e.preventDefault();
+let noun=document.getElementById("noun").value;
+let adjective= document.getElementById('adjective').value;
+let person=document.getElementById('person').value;
+let verb=document.getElementById('verb').value;
+let place=document.getElementById('place').value;
+
+//when let variables been outside the function, (if) didn't work why?
+// console.log(noun.value );
+// console.log(adjective.value);
+// console.log(person.value);
+// console.log(verb.value);
+// console.log(place.value);
+
+if(noun=='' || adjective==''|| person==''|| verb=='' || place=='')
+return
+console.log(noun );
+console.log(adjective);
+console.log(person);
+console.log(verb);
+console.log(place);
+
+// let story= arrayofstory(noun, adjective,person, verb, place);
+// console.log(story)
+//from here i have a problem...
+let story= arrayofstory(noun, adjective,person, verb, place);
+console.log(story)
+function arrayofstory(noun, adjective,person, verb, place){ return
+    `i like my friends ${noun}, he's ${adjective}, ${person}, ${verb}a lot of coding in ${place} `
+
+}
+}
+// let story= arrayofstory(noun, adjective,person, verb, place);
+// console.log(story)
+// function arrayofstory(noun, adjective,person, verb, place){
+//     `i like my friends ${noun}, he's ${adjective}, ${person}, ${verb}a lot of coding in ${place} `
+// }
+    
+
+
+
+
+
+

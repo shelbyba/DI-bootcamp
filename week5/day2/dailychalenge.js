@@ -6,9 +6,9 @@ console.log(planets)
 // create.classList.add("mercury")
 
 
-for( let x of planets) {
+for( let planet of planets) {
     let div= document.createElement('div');
-    div.classList.add('planet', x.toLowerCase());
+    div.classList.add('planet', planet.toLowerCase());
     
    let section= document.querySelector('.listPlanets');
    section.appendChild(div);
