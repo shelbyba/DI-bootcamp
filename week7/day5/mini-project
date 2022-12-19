@@ -1,0 +1,23 @@
+let myArray= [
+     {
+        "id":'0',
+        "Author" : "Tony robins",
+        "Quote" : 'life is magic'
+    },
+
+    {
+        "id": '1',
+        "Author" : 'Tony robins',
+        "Quote" : 'life is amazing'
+    },
+
+     {
+        "id":'2',
+        "Author": 'Tony robins',
+        "Quote": 'love life'
+    }
+]
+console.log(myArray);
+
+
+
