@@ -1,0 +1,116 @@
+//trnsorm 
+
+const firstArr=[1,2,3,4,5]
+const secArr=firstArr.map((value,index)=>
+value*3)
+console.log(secArr);
+
+const user=['shelby', 'bader', 'yarin', 'bader'];
+const email= user.map(value=>{
+    return value +'@gmail.com'
+})
+console.log(email);
+
+const user=['shelby', 'bader', 'yarin', 'bader'];
+const email= user.map(value=> value+'@gmail.com')
+console.log(email);
+
+const numbers = [1,2,3,4,5,6,7];
+ const biggerthan = numbers.filter(value=> value >3);
+ console.log(biggerthan);
+
+const users=["Dan", "salman" , "noy", "sam"];
+const startwithsa=users.filter(item=>item.includes('sa') )
+console.log(startwithsa);
+
+const users=["Dan", "salman" , "noy", "sam"];
+const startwithsa=users.filter(item=>item.startsWith('sa') )
+console.log(startwithsa);
+
+const emplyee=[
+    {
+        name: 'shebly',
+        age : 20
+
+    },
+    {
+        name: 'thmoas',
+        age : 30
+        
+    },
+
+    {
+      name:'donald',
+      age: 80
+
+
+    }
+
+
+
+
+] 
+const getbyage=emplyee.filter(value=>value.age>50);
+console.log(getbyage);
+
+const arraysum = [1,2,3,4,5,6];
+let totalus=arraysum.reduce((total,item)=> {
+    return total + item
+}//,1)
+console.log(totalus);
+
+let acount= [{dollars:1}, {dollars:2}, {dollars:3}]
+let result= acount.reduce((value,item)=>{
+    return {dollars:(value.dollars + item.dollars)}
+}) 
+console.log(result);
+
+function reduce(arrrr){
+    let sum=0;
+    arrrr.forEach(e=> sum+=e);
+    return sum
+}
+console.log(reduce([1,2,3,4,5]));
+
+
+function reduce2(ar){
+    let sum=0;
+    ar.forEach(e=>sum+=e);
+    return sum
+}
+console.log(reduce([1,2,3,4]));
+
+const users=["thomas", "brother", "sister", "so on"];
+const emails = users.map(value=>{
+    return value + "is the best ever"
+})
+console.log(emails);
+
+
+
+const example=[1,2,3,4,5,6,7,8,9,0]
+const example2=example.map((value)=>
+value*5);
+console.log(example2);
+
+const multiplyx=[1,2,3,4]
+const firArr=[true,false,true];
+const seArr=firArr.map((value)=>!value );
+console.log(seArr);
+
+const arr=[5,3,2,1];
+let vat=1.17
+const arrArr=arr.map((value)=>value*vat);
+console.log(arrArr);
+
+//test
+
+const hobbies=['swiming', 'reading', 'singing', 'studying', 'sports']
+const newone =hobbies.filter((value)=>value!='swiming');
+console.log(newone);
+
+const studentgGrade=[ 100,90,80,10,1]
+const acceptToUni=studentgGrade.filter((value)=>value!=0);
+console.log(acceptToUni);
+
+
